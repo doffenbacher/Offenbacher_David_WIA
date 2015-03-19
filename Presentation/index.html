@@ -1,0 +1,185 @@
+<!doctype html>  
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>HealthyCook.com</title>
+	<meta name="description" content="HealthyCook.com index.html">
+	<meta name="author" content="David Offenbacher">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.css">
+	<!-- PrettyPhoto-->
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<!-- end CSS-->
+
+	<!-- Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic' rel='stylesheet' type='text/css'>
+
+	<!--
+	“Script needed, First include the jQuery library, prettyPhoto javascript and the prettyPhoto CSS in the head of the page(s)
+	 where you want to use prettyPhoto.”
+	-->
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+</head>
+
+<body>
+
+	<header>
+
+		<!--  Created a div for logo/login section -->
+		<div class="banner">
+
+			<!-- Logo -->
+			<a href="index.html"> <img src="images/tree829×829.gif" alt="HealthyCook.com Logo." class="logo" height="200" width="200"></a>
+
+			<!-- Login section  -->
+			<div class="signIn">
+
+				<form action="admin.html"  autocomplete="off">
+					Username: <input type="text" name="username" id="user" class="masterTooltip" title="Please enter your Username!" placeholder="Username" required><br>
+					Password: <input type="password" name="password" id="pass" class="masterTooltip" title="Please enter your Password!" placeholder="********" required><br>
+					<input name="SignInButton" type="button" class="masterTooltip" title="Click here to Log In!" id="signInButton" value="Log In" />
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+		<!-- Set up a navigation system.-->
+		<nav>
+
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="registration.html">REGISTRATION</a></li>
+			</ul>
+
+		</nav>
+
+	</header>
+
+	<h1>HealthyCook.com</h1>
+
+	<div class="welcome">
+
+		<h2>Welcome!</h2>
+
+		<p>Here at HealthyCook.com we strive to help you unlock your Inner Cook by giving you the means to create healthy meals that start with what you already have in your home. </p>
+		<p>Search by ingredient, or add multiple ingredients to your list to find recipes. </p>
+
+	</div>
+
+	<!-- Sign in info on the front page. -->
+	<div class="signUp">
+
+		<h2>Sign Up!</h2>
+
+		<p>Please sign up to be a part of HealthyCook.com</p>
+		<p>Become a member and receive our monthly newsletter full of new seasonal and featured recipes. Submit your own recipes to be listed in our featured recipes and win prices! </p>
+
+		<form>
+			<input name="signUpButton" type="button" class="masterTooltip" title="Please click here to Sign Up!" id="signUpButton" value="Sign Up!" />
+		</form>
+	</div>
+
+	<!-- Section for Recipe Photos using PrettyPhoto Plugin “image gallery”-->
+	<div class="photos">
+	<h2>Recipe Photo Gallery</h2>
+
+		<a href="images/BananaSplitBreakfast.jpg" rel="prettyPhoto[images]" title="Banana Split Breakfast."><img src="images/BananaSplitBreakfast2.jpg" width="225" height="225" alt="Picture of Banana Split Breakfast" /></a>
+		<a href="images/green_juice.jpg" rel="prettyPhoto[images]" title="Green Juice"><img src="images/green_juice2.jpg" width="225" height="225" alt="Picture of Green Juice" /></a>
+		<a href="images/BreakfastDessert.jpg" rel="prettyPhoto[images]" title="Breakfast Dessert"><img src="images/BreakfastDessert2.jpg" width="225" height="225" alt="Picture of Breakfast Dessert" /></a>
+		<a href="images/SummerRoll.jpg" rel="prettyPhoto[images]" title="Summer Rolls"><img src="images/SummerRoll2.jpg" width="225" height="225" alt="Picture of Summer Roll" /></a>
+	</div>
+
+	<!--
+	This was the code before adding prettyPhoto “image gallery”.
+        <div class="photos">
+            <a href="images/BananaSplitBreakfast.jpg" title="You can add caption to pictures."> <img src="images/BananaSplitBreakfast2.jpg" class="masterTooltip" title="Banana Split Breakfast" alt="Picture of Banana Split Breakfast." height="225" width="225" ></a>
+            <a href="images/green_juice.jpg"> <img src="images/green_juice2.jpg" class="masterTooltip" title="Green Juice" alt="Picture of Green Juice." height="225" width="225" ></a>
+            <a href="images/BreakfastDessert.jpg"> <img src="images/BreakfastDessert2.jpg" class="masterTooltip" title="Breakfast Dessert" alt="Picture of Breakfast Dessert." height="225" width="225" ></a>
+            <a href="images/SummerRoll.jpg"> <img src="images/SummerRoll2.jpg" class="masterTooltip" title="Summer Rolls" alt="Picture of Summer Roll." height="225" width="225" ></a>
+        </div>
+
+    -->
+
+
+	<!-- Section for Recipe Photos using PrettyPhoto Plugin “YouTube content”-->
+	<div>
+	<h2>Gerson Green Juice - How To Videos</h2>
+	
+		<a href="https://www.youtube.com/watch?v=6N7SSkJsRMo" rel="prettyPhoto" title="Gerson Green Juice Step 1 - Preparation"><img src="images/youtube-logo.png" alt="YouTube" width="100" /></a>
+		<a href="https://www.youtube.com/watch?v=zON2mew3Ue0" rel="prettyPhoto" title="Gerson Green Juice Step 2 - Juicing"><img src="images/youtube-logo.png" alt="YouTube" width="100" /></a>
+
+	</div>
+
+
+	<!-- Section for Recipe Photos using PrettyPhoto Plugin “external sites (iframe)”-->
+	<div>
+	<h2>Fran Batzer - Health Coach Website</h2>
+	
+		<a href="http://www.franbatzer.com?iframe=true&width=100%&height=100%" rel="prettyPhoto[iframes]"><img src="images/franbatzer.jpg" alt="www.franbatzer.com" width="200" /></a>
+
+	</div>
+
+
+    <!-- Footer -->
+	<footer>
+
+		<p>Created by: David Offenbacher <br> Contact information: <a href="mailto:davidoffenbacher@fullsail.edu">davidoffenbacher@fullsail.edu</a></p>
+
+	</footer>
+
+
+	<!-- jquery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- min.js -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<!-- plugin -->
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	<!-- “To Finish amd initialize prettyPhoto, put the following code before the closing tag of your body” -->
+	<script type="text/javascript" charset="utf-8">
+  		
+  		$(document).ready(function(){
+   			$("a[rel^='prettyPhoto']").prettyPhoto();
+   				
+  			});
+  			  		
+	</script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
