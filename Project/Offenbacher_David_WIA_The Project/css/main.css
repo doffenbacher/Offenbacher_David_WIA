@@ -1,0 +1,197 @@
+html {
+    background-color: #669900;
+    background-image: url('../images/wood_background2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    /* set width of 960px */
+    width: 960px;
+    /* margins auto to center site */
+    margin-left: cover;
+    margin-right: cover;
+    margin: 0 auto;
+    background-color: rgba(200,201,201,0.25);
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+hr { 
+	background-color: #81d8d0; 
+	height: 1px; 
+	border: 0; 
+}
+
+header {
+	width: 100%;
+	background-color: #0ad7b8;
+}
+
+header img {
+	width: 25%;
+	margin: 0 0 0 35%;
+}
+
+nav {
+	width: 100%;
+	background-color:#57d1a3;
+	color: #fff;
+	padding: 5px 0;
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 11%;
+	padding-right: 13%;
+	border-right: 1px solid blue;
+}
+
+nav a {
+	text-decoration: none;
+	color: #6dff00;
+}
+
+#container {
+	width: 66.7%;
+	margin: 50px auto 10px;
+}
+
+#contact {
+	width: 75%;
+	margin: 10px auto;
+	border: 2px dashed black;
+}
+
+canvas {
+	display: block;
+	margin: 10px auto;
+}
+
+#canvas1 {
+	width: 25%;
+}
+
+
+#canvas2 {
+	width: 25%;
+}
+
+aside h2 {
+	text-align: center;
+	margin: -5px auto 20px;
+}
+
+.photos {
+    clear: both;
+}
+
+.photos img {
+    margin-left: 2px;
+    border: 5px solid #383838;
+}
+
+#video {
+	width: 50%;
+	margin: 20px auto;
+}
+
+footer {
+    margin-top: 10em;
+    text-align: center;
+    font-size: .75em;
+    clear: both;
+    width: 100%;
+	background-color:#57d1a3;
+	color: #fff;
+	padding: 5px 0;
+}
+
+footer ul{
+	list-style-type: none;
+	display: inline;
+}
+
+footer ul li{
+	list-style-type: none;
+	float: right;
+	margin-right: 2%;
+	padding-left: 2%;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active{
+	color: #4b12ff !important;
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (max-width : 1024px) {
+	#video{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+
+}
+
+@media only screen 
+and (max-width : 800px) {
+	#video{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+}
+
+@media only screen 
+and (max-width : 768px) {
+	#video{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+}
+
+@media only screen 
+and (max-width : 600px) {
+	#video{
+		display: none;
+	}
+
+}
+
+/* Smartphones (landscape) */
+@media only screen 
+and (max-width : 480px) {
+	#video{
+		display: none;
+	}
+
+}
+
+/* Smartphones (portrait) */
+@media only screen 
+and (max-width : 320px) {
+	#video{
+		display: none;
+	}
+	
+}
+

@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>HealthyCook.com</title>
+	<meta name="description" content="HealthyCook.com index.html">
+	<meta name="author" content="David Offenbacher">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/jquery-ui.theme.css">
+		<!-- PrettyPhoto-->
+		<link rel="stylesheet" href="css/prettyPhoto.css">
+		<!-- end CSS-->
+
+		<!-- Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,500italic' rel='stylesheet' type='text/css'>
+
+
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/modernizr.js"></script>
+		
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		
+		<script>
+		
+		var myCenter=new google.maps.LatLng(42.370900, -122.808089);
+
+			function initialize()
+			{
+			var mapProp = {
+			  center: myCenter,
+			  zoom:7,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker = new google.maps.Marker({
+			  position: myCenter,
+			  title:'Click to zoom'
+			  });
+
+			marker.setMap(map);
+
+			// Zooms to 12 when user clicks on marker
+			google.maps.event.addListener(marker,'click',function() {
+			  map.setZoom(12);
+			  map.setCenter(marker.getPosition());
+			  });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		
+		</script>
+		
+	</head>
+	
+	<body>
+		<header>
+			<img src="images/franbatzer.jpg" />
+			<nav>
+			<ul>
+				<li><a href="index.html" class="active">HOME</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<div id="container">
+			
+			<article>
+			
+				<h2>Welcome!!!</h2>
+				
+					<p><strong>When was the last time you talked with someone about your health and received the personal attention you deserve?</strong></p>
+
+					<p>Most approaches to nutrition dwell on calories, carbs, fats, proteins. Instead of creating lists of restrictions and good and bad foods, I coach my clients to create a happy, healthy life in a way that is flexible, fun and free of denial and discipline.</p>
+
+					<p><strong>No one diet works for everyone.</strong> I will guide you to find the food and lifestyle choices that best support you. I will also help you to make gradual, lifelong changes that enable you to reach your current and future health goals.</p>
+
+					<p><strong>Could one conversation change your life?</strong> Schedule a <a href="http://www.franbatzer.com/contact-fran-batzer">free initial consultation</a> with me today!</p>
+
+					<p>To see my FB Health Coach Facebook page click; <a href="https://www.facebook.com/franbatzer">Here </a> </p>
+
+					<p>To see my FB Health Coach Pinterest page click; <a href="http://www.pinterest.com/fbatzer/boards/">Here </a></p>
+			
+			</article>
+			
+			<hr>
+			
+			<article>
+			
+				<h2>My Training</h2>
+
+					<p>I received my training as a Health Coach from the <a href="http://www.integrativenutrition.com/">Institute for Integrative Nutrition's</a> cutting-edge Health Coach Training Program.</p>
+
+					<p>During my training, I studied over 100 dietary theories, practical lifestyle management techniques, and innovative coaching methods with some of the world’s top health and wellness experts. My teachers included Dr. Andrew Weil, Director of the Arizona Center for Integrative Medicine; Dr. Deepak Chopra, leader in the field of mind-body medicine; Dr. David Katz, Director of Yale University’s Prevention Research Center; Dr. Walter Willett, Chair of Nutrition at Harvard University; Geneen Roth, bestselling author and expert on emotional eating; and many other leading researchers and nutrition authorities.</p>
+
+					<p>My education has equipped me with extensive knowledge in holistic nutrition, health coaching, and preventive health. Drawing on these skills and my knowledge of different dietary theories, I work with clients to help them make lifestyle changes that produce real and lasting results.</p>
+			
+			</article>
+			
+			<hr>
+			
+			
+		<div class="photos">
+		
+			<h2>Recipe Photo Gallery</h2>
+
+				<a href="images/BananaSplitBreakfast.jpg" rel="prettyPhoto[images]" title="Banana Split Breakfast."><img src="images/BananaSplitBreakfast2.jpg" width="145" height="145" alt="Picture of Banana Split Breakfast" /></a>
+				<a href="images/green_juice.jpg" rel="prettyPhoto[images]" title="Green Juice"><img src="images/green_juice2.jpg" width="145" height="145" alt="Picture of Green Juice" /></a>
+				<a href="images/BreakfastDessert.jpg" rel="prettyPhoto[images]" title="Breakfast Dessert"><img src="images/BreakfastDessert2.jpg" width="145" height="145" alt="Picture of Breakfast Dessert" /></a>
+				<a href="images/SummerRoll.jpg" rel="prettyPhoto[images]" title="Summer Rolls"><img src="images/SummerRoll2.jpg" width="145" height="145" alt="Picture of Summer Roll" /></a>
+		
+		</div>
+
+		<hr>
+	
+		<div>
+		
+			<h2>Gerson Green Juice - How To Videos</h2>
+	
+				<a href="https://www.youtube.com/watch?v=6N7SSkJsRMo" rel="prettyPhoto" title="Gerson Green Juice Step 1 - Preparation"><img src="images/youtube-logo.png" alt="YouTube" width="100" /></a>
+				<a href="https://www.youtube.com/watch?v=zON2mew3Ue0" rel="prettyPhoto" title="Gerson Green Juice Step 2 - Juicing"><img src="images/youtube-logo.png" alt="YouTube" width="100" /></a>
+
+		</div>
+
+		<hr>
+
+		<div>
+		
+			<h2>Fran Batzer - Health Coach Website</h2>
+	
+				<a href="http://www.franbatzer.com?iframe=true&width=100%&height=100%" rel="prettyPhoto[iframes]"><img src="images/franbatzer.jpg" alt="www.franbatzer.com" width="200" /></a>
+
+		</div>
+	
+		<hr>
+	
+		<div>
+		
+			<h2>Where I am located</h2>
+			
+				<p><strong>Google Map</strong></p>
+				
+		</div>
+	
+		<div id="googleMap" style="width:640px;height:480px;"></div>
+		
+
+		<footer>
+
+			<p>Created by: David Offenbacher <br> Contact information: <a href="mailto:davidoffenbacher@fullsail.edu">davidoffenbacher@fullsail.edu</a></p>
+
+		</footer>
+		
+
+
+			<!-- jquery -->
+			<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+			<!-- min.js -->
+			<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+			<!-- plugin -->
+			<script type="text/javascript" src="js/jquery-ui.js"></script>
+			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+			<!-- main -->
+			<script type="text/javascript" src="js/main.js"></script>
+	
+			<!-- “To Finish amd initialize prettyPhoto, put the following code before the closing tag of your body” -->
+			<script type="text/javascript" charset="utf-8">
+		
+				$(document).ready(function(){
+					$("a[rel^='prettyPhoto']").prettyPhoto();
+				
+					});
+					
+			</script>
+			
+	</body>
+</html>
